@@ -1,0 +1,12 @@
+{
+  "name": "marketplace-metrics-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/marketplace_metrics.ts",
+    "test": "tsx src/marketplace_metrics.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3" }
+}
